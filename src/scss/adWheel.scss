@@ -1,0 +1,65 @@
+.adWheelContainer{
+    position:relative;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 10%;
+    height: 20%;
+    .adWheelCon{
+        width: 400%;
+        height: 100%;
+        transition: margin-left .3s linear;
+        img{
+            width: 25%;
+            height: 100%;
+        }
+    }
+    .leftBtn{
+        position: absolute;
+        left: 10%;
+        color: white;
+        outline:none;
+        padding: 0px;
+        background: none;
+        cursor: pointer;
+        border: none;
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        top: 40%;
+    }
+    .rightBtn{
+        position: absolute;
+        right: 10%;
+        outline:none;
+        padding: 0px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        top: 40%;
+    }
+    .adButtonGroup{
+        position: absolute;
+        bottom: 10%;
+        left:40%;
+        button{
+            margin-left: 10px;
+            padding: 0;
+            border-radius: 100%;
+            background-color: white;
+            outline:none;
+            cursor: pointer;
+            border: 5px solid white;
+        }
+        button:hover{
+            border-color: silver;
+        }
+        .choosedBtn{
+            border-color: silver;
+        }
+    }
+}

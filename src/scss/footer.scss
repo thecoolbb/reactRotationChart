@@ -1,0 +1,29 @@
+.footer{
+    clear: both;
+    bottom: 0;
+}
+.footerTop{
+    background: rgb(46, 53, 46);
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-flow: row-reverse;
+    .topLabel{
+        margin-right: 350px;
+        margin-top: 30px;
+        color: rgb(0, 255, 255)
+    }
+    .topA{
+        margin-top: 50px;
+        margin-right: -80px;
+        color: white;
+    }
+}
+.footerBottom{
+    background: black;
+    color: white;
+    .bottomList{
+        // display: inline-block;
+        color: white;
+    }
+}

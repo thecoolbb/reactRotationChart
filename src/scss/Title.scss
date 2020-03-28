@@ -1,0 +1,93 @@
+.header {
+    background: #20232a;
+    width: 100%;
+    height: 60px;
+    min-height: 20px;
+    min-width: 600px;
+    position: fixed;
+    top: 0;
+    .headerName {
+        color: #61dafb;
+        font-size: 14px;
+        display: inline-block;
+        height: 100%;
+        margin-left: 10%;
+        margin-right: 12%
+    }
+
+    .buttonGroup {
+        background: transparent;
+        border: transparent;
+        color: #fff;
+        outline: 0;
+        font-size: 14px;
+        cursor: pointer;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .buttonChoosed {
+        background: #20232a;
+        border-bottom: 2px solid rgb(97, 218, 251);
+        color: rgb(97, 218, 251);
+    }
+
+    .searchInput {
+        display: inline-block;
+        height: 100%;
+        .searchButton {
+            background: transparent;
+            border: transparent;
+            color: white;
+            cursor: text;
+            font-size: 14px;
+            outline: 0;
+        }
+
+        .userInput {
+            display: none;
+            background: gray;
+            border: transparent;
+            border-radius: 3px;
+            color: white;
+            font-size: 20px;
+            height: 20px;
+            min-width: 150px;
+            width: 20%;
+            outline: none
+        }
+    }
+
+    .languages {
+        color: white;
+        display: inline-block;
+        height: 100%;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+
+    .versionStyle {
+        color: white;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    .shareSite {
+        margin-left: 10px;
+        color: white;
+        display: inline-block;
+        height: 100%;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 779px){
+    .header {
+        height: 40px;
+    }
+}
+@media (max-width: 1279px) and (min-width: 780px){
+    .header {
+        height: 50px;
+    }
+}
